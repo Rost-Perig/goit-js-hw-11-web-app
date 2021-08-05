@@ -1,0 +1,61 @@
+.color-bar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px 24px;
+}
+
+.color-btn {
+  margin-left: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 14px;
+  background-color: transparent;
+  color: currentColor;
+  transition: border-color var(--timing) var(--timing-function);
+}
+
+.count-btns {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.final-countdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.timer {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  padding: 12px;
+  border-radius: 12px;
+  border: 2px solid red;
+  background-color: rgb(44, 29, 29);
+}
+
+.value {
+  margin: 0px;
+  font-family: Digital-7;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 1;
+  color: red;
+}
+
+.label {
+  margin: 0px;
+  font-family: Digital-7;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  color: red;
+}
+
+.opacity {
+  opacity: 0;
+}
